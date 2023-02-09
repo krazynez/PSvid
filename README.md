@@ -1,11 +1,11 @@
-# Simple and easy app to convert videos to PS brand consoles including the PS2, PSP, PS3 and PSVITA. PSvid uses ffmpeg to do these conversion.
+## Simple and easy app to convert videos to PS brand consoles including the PS2, PSP, PS3 and PSVITA. PSvid uses ffmpeg to do these conversion.
 
-## Running
+### Running
 - Linux || macOS `./psvid.pyw`
 
 - Windows `C:\Users\%USERNAME%\AppData\Local\Programs\Python\Python37\python psvid.pyw`
 
-## Options:
+### Options:
 - High compatibility: compatible with the PSP, PS3 and PSVITA.
 			Fast encoding, lower resolution.
 - Medium compatibility: compatible with PS3 and PSVITA.
@@ -15,7 +15,7 @@
 - Others: different formats (PS2, iPhone, iPad, iPod Classic and Android).
 			Experimental and Untested.
 
-## Notes:
+### Notes:
 - Linux users install `python3-tkinter`
 - If your using Windows you have to install python first:
   https://www.python.org/downloads/windows/
