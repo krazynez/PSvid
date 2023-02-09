@@ -16,7 +16,8 @@
 			Experimental and Untested.
 
 ### Notes:
-- Linux users install `python3-tkinter`
+- Linux users install `sudo dnf in python3-tkinter` or `sudo apt install python3-tk`
+- macOS users install `brew install python3-tkinter`
 - If your using Windows you have to install python first:
   https://www.python.org/downloads/windows/
 - Ffmpeg source code can be found in: www.ffmpeg.org/download.html
