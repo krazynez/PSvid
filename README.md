@@ -21,9 +21,3 @@
 - If your using Windows you have to install python3 first:
   https://www.python.org/downloads/windows/
 - FFmpeg binaries for Windows located: [HERE](https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z) or [ALT](https://github.com/BtbN/FFmpeg-Builds/releases)
-
-- Windows: ffmpeg for windows is bundled with PSvid, no problems there.
-- Source code: download the source code from www.ffmpeg.org/download.html
-
-
-
