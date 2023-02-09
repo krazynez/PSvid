@@ -3,7 +3,7 @@
 ### Running
 - Linux || macOS `./psvid.pyw`
 
-- Windows `C:\Users\%USERNAME%\AppData\Local\Programs\Python\Python37\python psvid.pyw`
+- Windows `C:\Users\%USERNAME%\AppData\Local\Programs\Python\Python(VERSION #)\python psvid.pyw`
 
 ### Options:
 - High compatibility: compatible with the PSP, PS3 and PSVITA.
