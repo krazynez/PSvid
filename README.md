@@ -20,7 +20,7 @@
 - macOS users install `brew install python3-tk`
 - If your using Windows you have to install python first:
   https://www.python.org/downloads/windows/
-- Ffmpeg source code can be found in: www.ffmpeg.org/download.html
+- FFmpeg binaries for Windows located: [HERE](https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z) or [ALT](https://github.com/BtbN/FFmpeg-Builds/releases)
 
 - Windows: ffmpeg for windows is bundled with PSvid, no problems there.
 - Source code: download the source code from www.ffmpeg.org/download.html
