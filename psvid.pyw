@@ -18,7 +18,7 @@ changelog = """
 4.0 Python3 port by Krazynez
 """
 
-import os, tkinter, subprocess, sys
+import os, tkinter, subprocess, sys, re
 from tkinter import IntVar
 from tkinter import filedialog
 from tkinter import Label 
@@ -47,7 +47,7 @@ def work():
     video_output, origext = os.path.splitext(video_input.replace("*", " "))
     video_output = os.path.basename(video_output)
     def run():
-        if subprocess.call(f"ffmpeg -i '{video_input}' {ffcommand} '{video_output}{ext}'", shell=True) == 0:
+        if subprocess.call(f"ffmpeg -i \"{video_input}\" {ffcommand} \"{video_output}{ext}\"", shell=True) == 0:
             def reapear():
                 gui2.destroy()
                 maingui()
