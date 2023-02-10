@@ -89,7 +89,7 @@ def maingui():
         global ffcommand, ext, video_input
         video_input = video_input_entry.get()
         if Rvar.get() == 1:
-            ffcommand = " -c:a aac -f psp -r 29.97 -s 320x240 -b:v 768k -ar 48000 -ab 64 "
+            ffcommand = " -c:a aac -c:v h264 -profile:v baseline -f psp -r 29.97 -s 320x240 -b:v 768k -ar 48000 -ab 96k "
             ext = "_psp.mp4"
             gui.withdraw()
             work()
