@@ -17,7 +17,7 @@
 
 ### Notes:
 - Linux users install `sudo dnf in python3-tkinter` or `sudo apt install python3-tk`
-- macOS users install `brew install python3-tk`
+- macOS users install `brew install python-tk ffmpeg`
 - If your using Windows you have to install python3 first:
   https://www.python.org/downloads/windows/
 - FFmpeg binaries for Windows located: [HERE](https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z) or [ALT](https://github.com/BtbN/FFmpeg-Builds/releases)
